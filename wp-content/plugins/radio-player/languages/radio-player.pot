@@ -1,0 +1,1239 @@
+# Copyright (C) 2024 SoftLab
+# This file is distributed under the same license as the Radio Player plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Radio Player 2.0.77\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/radio-player\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-09T07:58:07+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: radio-player\n"
+
+#. Plugin Name of the plugin
+#: elementor/class-elementor-player-widget.php:15
+#: elementor/class-elementor-player-widget.php:34
+#: includes/class-admin.php:156
+#: includes/class-admin.php:157
+#: includes/views/getting-started/index.php:12
+msgid "Radio Player"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://softlabbd.com/radio-player"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds live audio streaming to WordPress, supporting Shoutcast, Icecast, and more for easy broadcasting."
+msgstr ""
+
+#. Author of the plugin
+msgid "SoftLab"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://softlabbd.com/"
+msgstr ""
+
+#: elementor/class-elementor-player-widget.php:44
+msgid "No Player Found"
+msgstr ""
+
+#: elementor/class-elementor-player-widget.php:49
+#: elementor/class-elementor-player-widget.php:53
+#: includes/views/getting-started/basic-usage.php:151
+#: block/build/radio-player/index.js:1
+msgid "Select Player"
+msgstr ""
+
+#: elementor/class-elementor-player-widget.php:60
+msgid "Alignment"
+msgstr ""
+
+#: elementor/class-elementor-player-widget.php:64
+msgid "Left"
+msgstr ""
+
+#: elementor/class-elementor-player-widget.php:68
+msgid "Center"
+msgstr ""
+
+#: elementor/class-elementor-player-widget.php:72
+msgid "Right"
+msgstr ""
+
+#: elementor/class-elementor-player-widget.php:91
+msgid "Please select a player."
+msgstr ""
+
+#: includes/class-admin.php:166
+msgid "All Players"
+msgstr ""
+
+#: includes/class-admin.php:169
+msgid "Getting Started - Radio Player"
+msgstr ""
+
+#: includes/class-admin.php:169
+#: includes/views/getting-started/index.php:15
+msgid "Getting Started"
+msgstr ""
+
+#: includes/class-admin.php:177
+msgid "Statistics - Radio Player"
+msgstr ""
+
+#: includes/class-admin.php:177
+#: includes/views/statistics.php:5
+msgid "Statistics"
+msgstr ""
+
+#: includes/class-admin.php:185
+msgid "Settings - Radio Player"
+msgstr ""
+
+#: includes/class-admin.php:185
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:194
+#: includes/class-admin.php:195
+msgid "Recommended Plugins"
+msgstr ""
+
+#: includes/class-ajax.php:46
+#: includes/class-ajax.php:64
+#: includes/class-ajax.php:81
+#: includes/class-ajax.php:90
+#: includes/class-ajax.php:121
+#: includes/class-ajax.php:155
+#: includes/class-ajax.php:184
+#: includes/class-ajax.php:236
+#: includes/class-ajax.php:248
+#: includes/class-ajax.php:292
+#: includes/class-ajax.php:312
+msgid "Invalid nonce"
+msgstr ""
+
+#: includes/class-ajax.php:52
+msgid "No URL Provided!"
+msgstr ""
+
+#: includes/class-ajax.php:70
+msgid "No URL provided!"
+msgstr ""
+
+#. translators: %s: User feedback
+#: includes/class-ajax.php:98
+msgid "Feedback: %s"
+msgstr ""
+
+#. translators: %s: Website URL
+#: includes/class-ajax.php:101
+msgid "Website URL: %s"
+msgstr ""
+
+#. translators: %s: Plugin name
+#: includes/class-ajax.php:103
+msgid "Feedback for %s"
+msgstr ""
+
+#: includes/class-ajax.php:126
+msgid "You do not have permission to import data"
+msgstr ""
+
+#: includes/class-ajax.php:160
+msgid "You do not have permission to export data"
+msgstr ""
+
+#: includes/class-ajax.php:189
+msgid "You do not have permission to get players"
+msgstr ""
+
+#: includes/class-ajax.php:241
+msgid "You do not have permission to update this player"
+msgstr ""
+
+#: includes/class-ajax.php:296
+msgid "You do not have permission to delete this player"
+msgstr ""
+
+#: includes/class-ajax.php:317
+msgid "You do not have permission to update settings"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:46
+msgid "Once Monthly"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:99
+msgid "Radio player statistics of last "
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:99
+msgid " %s day"
+msgid_plural " %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-statistics__premium_only.php:19
+msgid "Radio Player Stats"
+msgstr ""
+
+#: includes/class-stream-data.php:276
+msgid " by "
+msgstr ""
+
+#: includes/views/email-report.php:15
+msgid "Radio Player Play Statistics of last"
+msgstr ""
+
+#: includes/views/email-report.php:15
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/views/email-report.php:33
+msgid "Most Played Radio Players"
+msgstr ""
+
+#: includes/views/email-report.php:43
+msgid "Player Title"
+msgstr ""
+
+#: includes/views/email-report.php:46
+#: includes/views/email-report.php:96
+msgid "Total Unique Listeners"
+msgstr ""
+
+#: includes/views/email-report.php:49
+#: includes/views/email-report.php:93
+msgid "Total Play Count"
+msgstr ""
+
+#: includes/views/email-report.php:80
+msgid "Play Count by Date"
+msgstr ""
+
+#: includes/views/email-report.php:90
+msgid "Date"
+msgstr ""
+
+#: includes/views/email-report.php:137
+msgid "This email has been generated from Radio Player at"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:5
+msgid "Radio Ads Player Addon - Quick Overview"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:8
+msgid ""
+"The Radio Player Ads Addon offers you the ability to monetize your radio player by allowing you to play\n"
+"                audio advertisements and other promotional content while your users listen to the radio."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:12
+msgid ""
+"You can now easily manage and create your own audio campaigns, target your desired audience, and\n"
+"                increase your revenue stream."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:17
+msgid ""
+"With its user-friendly interface and easy integration with the existing\n"
+"                Radio Player plugin, you can quickly and effortlessly create a professional audio campaign.\n"
+"                Radio Player Ads is an excellent tool that can help you take your radio website to the next level and\n"
+"                improve your overall user experience."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:36
+msgid "How to Play Custom Audio Ads and Promos Using Radio Player Ads Addon"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:37
+msgid "To play custom audio ads and promos, follow these steps:"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:43
+msgid "Create Audio Ads"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:45
+msgid "To create audio ads, follow these steps:"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:48
+msgid "Navigate to %s Radio Player Ads > Add New Ad > Enter Ad Title %s."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:50
+msgid "From the %s General Tab %s, set up general ad settings:"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:53
+msgid "%sAd Source:%s Enter the audio ad file URL or select the ad file from the WordPress media library."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:55
+msgid "%s Ad Image: %s Enter the ad image URL or select the ad image from local storage."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:58
+msgid "%s Ad Type: %s Select the ad type from 3 different types of ads:"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:60
+msgid "%sPre-roll:%s The ad will be played before the radio station play starts."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:61
+msgid "%sMid-roll:%s The ad will be played in the middle of the radio station play."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:62
+msgid "%sBoth:%s The ad will be played before and in the middle of the radio station play."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:66
+msgid "%sAd Duration:%s Select the ad duration and how long the ad will play. You can select 10 sec, 20 sec, 30 sec, 1 min, full length, and custom length."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:69
+msgid "%sPlayers:%s Select specific radio players where you want to play ads. The ad will be played only for the selected players."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:74
+msgid "From the %sExpiration Tab%s, customize ad expiration settings:"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:76
+msgid "%sExpiration Type:%s Select the ad expiration type depending on your need:"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:78
+msgid "%sExpire by Count:%s The ad will be expired after the given number of plays."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:79
+msgid "%sExpire by Date:%s The ad will be expired after the given date."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:85
+msgid "From the %sAdvertiser Tab%s, enter advertiser information:"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:87
+msgid "%sAdvertiser Name:%s Enter the advertiser name"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:88
+msgid "%sAdvertiser Email:%s Enter the advertiser email (this email is used to send email reports of ad playing statistics)."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:93
+msgid "Select the %1$sAd Status%2$s and click %1$sPublish%2$s when customizations are done."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:98
+msgid "Adjust Ad Settings"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:99
+msgid "To adjust ad settings, follow these steps:"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:103
+#: includes/views/getting-started/proxy-player-addon.php:48
+#: includes/views/getting-started/proxy-player-addon.php:99
+msgid "Navigate to %s Radio Player > Settings %s."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:107
+msgid "From the %s Ads Player Settings Tab %s, adjust the following settings:"
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:110
+msgid "%sPre-roll Ads Interval:%s This setting allows you to configure the time interval between consecutive pre-roll ads. Pre-roll ads are played before the radio station starts playing. Adjust this interval to control how often pre-roll ads will be displayed to your listeners."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:113
+msgid "%sMid-roll Ads Interval:%s This setting lets you set the time interval between consecutive mid-roll ads. Mid-roll ads are played during the radio station play, typically in the middle of the content. By adjusting this interval, you can determine how frequently mid-roll ads will be displayed to your listeners."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:116
+msgid "%sShow Skip Button:%s This setting enables or disables the \"Skip\" button for your ads. When activated, listeners will have the option to skip the ad after a certain duration or if they find it irrelevant. Enabling this feature can improve the user experience, but may also affect ad revenue. Be sure to weigh the pros and cons before enabling or disabling this option."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:123
+msgid "When anyone plays the radio, the ads will keep displaying depending on the settings you have customized so far."
+msgstr ""
+
+#: includes/views/getting-started/ads-player-addon.php:125
+msgid "Video Tutorial"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:6
+msgid "Add New Player"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:8
+msgid "To play a radio station, you need to add a new player. You can add a new player from the %s Radio Player %s page."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:11
+msgid ""
+"From the Stations tab, you need to add the stations that you want to play in the player.\n"
+"                You have to insert the name, stream URL, and logo image for the station.\n"
+"                You can add multiple stations in the same."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:16
+msgid ""
+"Form the Player Skins tab, you can select the player skin from the available 10+ skins with different\n"
+"                layouts and styles."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:20
+msgid ""
+"From the Controls tab, you can show or hide the player controls like popup icon, playlist icon, volume\n"
+"                icon, live/ offline player status, etc."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:24
+msgid ""
+"From the appearance tab, you can customize the player appearance like player background color, player\n"
+"                text color, player width, border radius, box shadow, etc."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:28
+msgid "While you are editing the player, you can see the player preview in realtime in the preview section."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:31
+msgid "Once you are done with the player settings, you can save the player and use it anywhere on your website."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:47
+msgid "Display Radio Player"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:49
+msgid "After adding a new player, you can display the player in your website in various ways."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:53
+msgid ""
+"You can display the player anywhere using the <code>[radio_player id=\"player_id\"]</code>\n"
+"                shortcode."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:57
+msgid ""
+"You have to use a valid player id in the shortcode id attribute to display the player.\n"
+"                You will get the player id from the <code>Radio Player > All Players</code> page."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:62
+msgid ""
+"You can also display the Radio Player in any page or post by using the Radio Player Gutenberg block and\n"
+"                Elementor widget."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:67
+msgid ""
+"For displaying the Radio Player using the Gutenberg block, you need to search and insert the Radio\n"
+"                Player block in the page or post.\n"
+"                In the Radio Player block, you have to select the player from the player list dropdown."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:73
+msgid ""
+"For displaying the Radio Player using the Elementor widget, you need to search and insert the Radio\n"
+"                Player widget in the page or post.\n"
+"                In the Radio Player widget, you have to select the player from the player list dropdown."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:91
+msgid "Display Sticky Player"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:93
+msgid ""
+"This plugin provides a sticky player feature with multiple styles (Fullwidth, Mini-Fullwidth and\n"
+"                Floating) that will be displayed at the bottom or top of the website in\n"
+"                the all pages."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:98
+msgid ""
+"For displaying the sticky player, you need to select the Player that you want to display as\n"
+"                sticky player from the <code>Radio Player > Settings > Sticky Player Settings</code>."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:103
+msgid ""
+"You can also display the sticky player only on specific pages. From the Exclude Pages settings, you\n"
+"                can select the pages where you don't want to display the sticky player."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:120
+msgid "Display Player at Specific Times"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:122
+msgid "If your station isn't live 24/7 or broadcasts only at set times, scheduling your player to display during these periods can greatly benefit both you and your listeners."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:126
+msgid "Radio Player offers you a variety of scheduling options to match your player's unique requirements."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:128
+msgid "Here's a quick rundown of the modes available:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:133
+msgid "Always"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:133
+msgid "The player will always be displayed."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:136
+msgid "Daily"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:136
+msgid "Use the \"Daily\" mode to set specific times of a day to show/ hide the player."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:139
+msgid "Weekly"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:139
+msgid "Use the \"Weekly\" mode to set specific days and times of the days to show/ hide the player."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:142
+msgid "Monthly"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:142
+msgid "Use the \"Monthly\" mode to set specific dates and times of the dates to show/ hide the player."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:147
+msgid "To set the schedule for any player, follow the steps below:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:151
+msgid "Next, select the player for which you want to set the schedule."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:152
+msgid "Set Schedule"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:152
+msgid "Now, click on the \"Schedules\" tab and set your preferred schedule type from daily, weekly, monthly or always. from the \"Schedule Type\" dropdown."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:153
+msgid "Set Times, Days or Dates"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:153
+msgid "After selecting the schedule type, set the times, days or dates for which you want to display the player."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:154
+msgid "Save Changes"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:154
+msgid "Finally, click on the \"Save Changes\" button to save the schedule."
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:5
+#: includes/views/getting-started/introduction.php:10
+msgid "Shortcode Player"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:9
+msgid "MP3 + AAC + M3U8 Compatibility"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:13
+msgid "Current Song Title"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:17
+#: includes/views/getting-started/introduction.php:30
+msgid "Add Multiple Players"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:21
+#: includes/views/getting-started/introduction.php:20
+msgid "Player Duplicator"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:25
+msgid "Live Player Editing Preview"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:29
+msgid "Multiple Player Instance"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:33
+#: includes/views/getting-started/introduction.php:25
+msgid "Mobile Media Notification"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:37
+msgid "Gutenberg Editor Block"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:41
+msgid "Elementor Page Builder Widget"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:45
+#: includes/views/getting-started/introduction.php:40
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:49
+msgid "Full-width Sticky Player"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:53
+msgid "Sticky Player on Specific Pages"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:57
+msgid "Multiple Stations in a Player"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:61
+#: includes/views/getting-started/introduction.php:132
+msgid "Multiple Player Skins"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:65
+msgid "Stations Playlist"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:69
+#: block/build/radio-player/index.js:1
+msgid "Recent Play History"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:73
+msgid "Artist + Artwork Display"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:77
+#: includes/views/getting-started/introduction.php:49
+msgid "Play Statistics"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:81
+#: includes/views/getting-started/introduction.php:161
+msgid "Popup Player"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:85
+msgid "Player Embed"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:89
+msgid "Size Customizations"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:93
+#: includes/views/getting-started/introduction.php:45
+msgid "Color Customizations"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:102
+msgid "Unlock the full power of the Radio Player"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:103
+msgid "Upgrade to the Pro version to get more powerful features and premium support."
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:107
+#: includes/views/getting-started/get-pro.php:113
+msgid "Free"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:107
+#: includes/views/getting-started/get-pro.php:114
+msgid "Pro"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:112
+msgid "Feature List"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:137
+msgid "Don't waste time, get the PRO version now!"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:138
+msgid "Upgrade to the PRO version of the plugin and unlock all the amazing Google Drive Integration features for your website."
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:142
+#: includes/views/statistics.php:49
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:149
+msgid "Want to try live demo, before purchase?"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:150
+msgid ""
+"You can try our instant ready-made demo. The demo allows you to experiment with all the functionality of\n"
+"                the plugins on both Front-End and Back-End. Feel free to explore the possibilities and limits of our\n"
+"                plugins to see if it fits your requirements!"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:156
+msgid "Try Live Demo"
+msgstr ""
+
+#: includes/views/getting-started/help.php:5
+msgid "Can I play HTTP stream on my HTTPS website?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:6
+msgid ""
+"Browsers no longer accept mixed requests. That means you can't play an HTTP stream to an HTTPS\n"
+"                    website. But, this plugin uses a proxy system to play most HTTP streams in your HTTPS website."
+msgstr ""
+
+#: includes/views/getting-started/help.php:10
+msgid "Why is the current song title not displaying in the player?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:11
+msgid ""
+"There could be several reasons why the current song title isn’t displaying on your player. One common reason is that the player is not receiving the stream metadata from the server. This can happen if the server doesn’t provide the metadata, or if the player is not configured to display it.\n"
+"<br/>\n"
+"<br/>\n"
+"To troubleshoot this issue, you can try the following steps:\n"
+"<ol>\n"
+"<li>Check if the stream has metadata: If the metadata is not present, then it won’t be possible to display the current song title on the player.</li>\n"
+"<li>Make sure the “Show Track Title” setting is enabled in the player controls settings.</li>\n"
+"<li>Make sure <b>allow_url_fopen</b> is enabled on the server: If allow_url_fopen is disabled on the server, the player won’t be able to retrieve the metadata from the stream. You can contact your web host to enable this setting or modify the server configuration yourself if you have access.</li>\n"
+"<li>If the stream title still not showing then try to enable the <strong>Metadata Proxy</strong> settings from the HTTP player settings tab in the plugin settings page.</li>\n"
+"<li>If you’ve tried these steps and still can’t display the current song title on your player, please don’t hesitate to contact us for further assistance.</li>\n"
+"</ol>\n"
+""
+msgstr ""
+
+#: includes/views/getting-started/help.php:25
+msgid "Can I add and display multiple radio stations in the same player?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:26
+msgid "Yes, you can add and display multiple radio stations in the same player. While you create a new player, you can add multiple radio stations with Title, Stream URL and Image from the stations tab. They will display as stations playlist in the player."
+msgstr ""
+
+#: includes/views/getting-started/help.php:29
+msgid "How can I display the sticky player?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:30
+msgid "To display the sticky player, you need to select the Player that you want to display as a sticky player from the <code>Radio Player > Sticky Player Settings</code>."
+msgstr ""
+
+#: includes/views/getting-started/help.php:33
+msgid "How can I display the sticky player only on specific pages?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:34
+msgid "By default, the sticky player will be displayed on all pages. But, You can also show the sticky player only on specific pages by excluding the pages from the <code>Radio Player > Settings > Sticky Player Settings</code>."
+msgstr ""
+
+#: includes/views/getting-started/help.php:37
+msgid "How can I display the popup player?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:38
+msgid "There is a popup icon option for the player. You can show/ hide the player's popup control, and when users click on it, The player will open within a new popup window."
+msgstr ""
+
+#: includes/views/getting-started/help.php:41
+msgid "Can I embed a radio player on another website?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:42
+msgid "Yes, you can embed a radio player on another website. You can find the embed code on the player listing page. Just click on the Embed button and copy the embed code. Then paste the embed code on any website."
+msgstr ""
+
+#: includes/views/getting-started/help.php:45
+msgid "How can I view the play statistics for my radio player?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:46
+msgid "To view the play statistics for your radio player, navigate to <code>Radio Player > Statistics</code>. Here, you can see the number of plays, the total play duration, and the top played stations."
+msgstr ""
+
+#: includes/views/getting-started/help.php:49
+msgid "How can I customize the appearance of the radio player?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:50
+msgid "You can customize the appearance of the radio player using custom CSS. Navigate to <code>Radio Player > Settings > Custom CSS</code> to add your CSS code. You can also choose from multiple player skins and customize the popup player size, header, and footer content, and color scheme from the settings page."
+msgstr ""
+
+#: includes/views/getting-started/help.php:53
+msgid "Is the radio player compatible with mobile devices?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:54
+msgid "Yes, the radio player is compatible with mobile devices and supports mobile media notifications. The player will automatically adjust its size and appearance based on the device's screen size."
+msgstr ""
+
+#: includes/views/getting-started/help.php:63
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: includes/views/getting-started/help.php:82
+msgid "Need Help?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:83
+msgid "Read our knowledge base documentation or you can contact us directly."
+msgstr ""
+
+#: includes/views/getting-started/help.php:90
+#: includes/views/getting-started/help.php:93
+#: includes/views/getting-started/help.php:99
+msgid "Documentation"
+msgstr ""
+
+#: includes/views/getting-started/help.php:95
+msgid ""
+"Check out our detailed online documentation and video tutorials to find out more about what you can\n"
+"                    do."
+msgstr ""
+
+#: includes/views/getting-started/help.php:106
+msgid "Contact"
+msgstr ""
+
+#: includes/views/getting-started/help.php:109
+msgid "Support"
+msgstr ""
+
+#: includes/views/getting-started/help.php:110
+msgid "We have dedicated support team to provide you fast, friendly & top-notch customer support."
+msgstr ""
+
+#: includes/views/getting-started/help.php:112
+msgid "Get Support"
+msgstr ""
+
+#: includes/views/getting-started/index.php:14
+msgid "Live Shoutcast, Icecast and Audio Stream Player for WordPress"
+msgstr ""
+
+#: includes/views/getting-started/index.php:37
+msgid "Introduction"
+msgstr ""
+
+#: includes/views/getting-started/index.php:45
+msgid "Changelog"
+msgstr ""
+
+#: includes/views/getting-started/index.php:61
+msgid "Basic Usage"
+msgstr ""
+
+#: includes/views/getting-started/index.php:68
+msgid "Proxy Player Addon"
+msgstr ""
+
+#: includes/views/getting-started/index.php:76
+msgid "Ads Player Addon"
+msgstr ""
+
+#: includes/views/getting-started/index.php:96
+msgid "Help"
+msgstr ""
+
+#: includes/views/getting-started/index.php:114
+msgid "Get Pro"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:5
+msgid "MP3 + AAC + M3U8 Compatible"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:6
+msgid "Radio Player is compatible with MP3, AAC, and M3U8 streams. It also supports HLS streams."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:11
+msgid "Radio Player comes with a shortcode player that you can use to display your player anywhere on your site."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:15
+msgid "Stream Data Display"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:16
+msgid "Radio Player can grab and display the stream metadata including current track title, artist and artwork, and recent play history on the player."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:21
+msgid "Radio Player comes with a player duplicator that allows you to duplicate your previously created players with all the settings."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:26
+msgid "Radio Player shows a media notification on mobile devices, allowing users to easily play or pause from the notification bar."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:31
+msgid "Radio Player allows you to create upto 10 players in the free version and and can create unlimited players in the PRO version."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:35
+msgid "Multiple Instances"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:36
+msgid "Radio Player allows you to display multiple players on the same page."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:41
+msgid "Radio Player provides a Custom CSS feature to customize the player looks and styles."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:46
+msgid "Radio Player allows you to customize the player text, button, background, and box-shadow colors."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:50
+msgid "Radio Player allows you to track the play statistics of your players. You can see the total number of play count, total number of listeners, and the most played players."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:53
+msgid "Gutenberg Block"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:54
+msgid "Radio Player comes with a Gutenberg block that you can use to display your player on any page or post."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:57
+msgid "Elementor Widget"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:58
+msgid "Radio Player comes with an Elementor widget that you can use to display your player on any page or post."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:69
+msgid "Radio Player Quick Overview"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:72
+msgid "Radio Player is a user-friendly and easily customizable web radio player tailored for WordPress websites. It effortlessly connects to live MP3, Shoutcast, IceCast, and various other audio streams, providing a smooth listening experience for your visitors."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:76
+msgid "Incorporate the player into your site using simple options like shortcodes, Gutenberg blocks, Elementor widgets, sticky players, or popup players. With Radio Player, you can effortlessly enhance your WordPress website's appeal to users seeking an enjoyable web radio experience."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:90
+msgid "Never miss a valuable features"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:91
+msgid "Let's explore the powerful features of the plugin"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:98
+msgid "Sticky Player"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:100
+msgid ""
+"Radio Player provides a Sticky Player feature that allows you to display the player on the\n"
+"                    bottom of the screen. You can choose to display the Sticky Player on all pages or specific pages."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:112
+msgid "Player Display Schedule"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:115
+msgid "You can schedule the player visibility by setting the start date and end date. The player will be displayed on your website during the scheduled time."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:135
+msgid "Radio Player provides 10+ player skins with different layouts and styles to choose from. You can choose any player skin from the skins library and display it anywhere on your website using the shortcode."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:146
+msgid "Multiple Stations Playlist"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:148
+msgid "You can add and display multiple radio stations in the same player. Users can play the stations by using the next/ previous button in the player."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:163
+msgid "Radio Player provides a Popup Player feature that allows you to display the player in a popup window. You can choose to display the Popup Player on all pages or specific pages."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:174
+msgid "Player Embed Code"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:177
+msgid "You can embed the player anywhere on your website using the embed code. You can also customize the player appearance with the embed code."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:190
+msgid "Realtime Player Editing Preview"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:193
+msgid "You can customize the player appearance with a real-time preview. You can change the player colors, background color, background image, width, border radius, box shadow, and more."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:204
+msgid "More powerful features"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:205
+msgid "More extra valuable features to power up your website readability."
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:5
+msgid "Radio Player Proxy Add-on - Quick Overview"
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:8
+msgid ""
+"Recent updates in Google Chrome have introduced stringent rules against mixed content.\n"
+"As a result, if a stream link isn't SSL-encrypted but your website is, it won't play on Chrome.\n"
+"Notably, many browsers are following Chrome's lead. Therefore, it's crucial to ensure your stream links are SSL-secured.\n"
+""
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:15
+msgid "Radio Player Proxy Add-on facilitates the playback of HTTP (non-SSL) radio streams on HTTPS-enabled websites. Serving as a bridge, it retrieves the radio stream and delivers it to the player as an HTTPS stream."
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:18
+msgid "The add-n use an external VPS proxy server that allow you to play most of the HTTP streams in your HTTPS website."
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:22
+msgid "Additionally, if your website server struggles to retrieve stream data, the plugin can display the current song title for you."
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:38
+msgid "How to Play HTTP streams on HTTPS website"
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:44
+msgid "To play HTTP streams on an HTTPS (SSL-enabled) website, follow these steps:"
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:52
+msgid "In the %s Proxy Settings %s tab, modify the following settings:"
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:55
+msgid "%s Enable HTTP Proxy: %s Activate this setting to play HTTP streams directly on your server by enabling its proxy system. Utilizing the proxy on your own server eliminates reliance on third-party servers, making your radio streams faster and more flexible."
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:58
+msgid "%s Proxy URL: %s If the player still doesn't work after enabling the HTTP player, copy the proxy link and paste it into the Proxy URL input box."
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:61
+msgid "%s Save an Check: %s Save the settings and check the players."
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:72
+#: includes/views/getting-started/proxy-player-addon.php:111
+msgid "Note: "
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:73
+msgid "The proxy system might not support certain HTTP streams, such as .m3u8."
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:77
+msgid "If this occurs, utilize the plugin's Popup player feature for these streams. This player operates in HTTP mode, but to use it, you must disable the HTTP to HTTPS redirection on your website."
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:81
+msgid "HTTP to HTTPS redirection can be set up in multiple ways: through the .htaccess file, SSL WordPress plugins, Cloudflare, or cPanel server settings. Ensure it's disabled in all relevant areas."
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:88
+msgid "How to Fix Metadata Display (current track title, artist, artwork)"
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:93
+msgid "Occasionally, due to server limitations, the stream data including current song title, artist name and artwork image and recent play history may not appear in the player."
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:94
+msgid "To resolve this and display the stream metadata in the player, follow the steps below"
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:103
+msgid "In the %1$s Proxy Settings %2$s tab, enable the %1$s Metadata Proxy %2$s option. This will facilitate fetching the stream metadata through the proxy server.\""
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:106
+msgid "%s Save an Check: %s Save the settings and check the players for the stream metadata."
+msgstr ""
+
+#: includes/views/getting-started/proxy-player-addon.php:112
+msgid "Not all streams may have metadata for display."
+msgstr ""
+
+#: includes/views/notice/radio-player-proxy-addon.php:15
+msgid "Radio Player Proxy Add-on"
+msgstr ""
+
+#: includes/views/notice/radio-player-proxy-addon.php:18
+msgid "Radio Player Proxy Add-on allows seamless playback of HTTP radio streams on HTTPS websites."
+msgstr ""
+
+#: includes/views/notice/radio-player-proxy-addon.php:20
+msgid "Additionally, it can also fix the metadata display including current track title, artist, artwork, and recent play history in the player."
+msgstr ""
+
+#: includes/views/notice/radio-player-proxy-addon.php:22
+msgid "Never show this"
+msgstr ""
+
+#: includes/views/notice/radio-player-proxy-addon.php:23
+msgid "More Details"
+msgstr ""
+
+#: includes/views/notice/radio-player-proxy-addon.php:24
+msgid "Get Now"
+msgstr ""
+
+#: includes/views/recommended-plugins.php:118
+msgid "Try out our recommended plugins"
+msgstr ""
+
+#: includes/views/recommended-plugins.php:119
+msgid "Hide From Menu"
+msgstr ""
+
+#: includes/views/recommended-plugins.php:432
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/views/recommended-plugins.php:433
+msgid "If you hide the recommended plugins page from your menu, it won't appear there again. Are you sure you'd like to do it?"
+msgstr ""
+
+#: includes/views/statistics.php:9
+msgid "Overview of how many listeners are listening the radio players in each day and get the list of top played radio players."
+msgstr ""
+
+#: includes/views/statistics.php:45
+msgid "View radio player statistics"
+msgstr ""
+
+#: includes/views/statistics.php:46
+msgid "Upgrade to Pro and get access to the stats."
+msgstr ""
+
+#: plugin.php:15
+msgid "You can't access this page"
+msgstr ""
+
+#: plugin.php:105
+msgid "\"%1$s\" - addon is deactivated. Please update your %1$s addon plugin to the latest version (v%2$s)"
+msgstr ""
+
+#: plugin.php:107
+msgid "1.0.1"
+msgstr ""
+
+#: block/build/radio-player/index.js:1
+msgid "Expand Player"
+msgstr ""
+
+#: block/build/radio-player/index.js:1
+msgid "Minimize Player"
+msgstr ""
+
+#: block/build/radio-player/index.js:1
+msgid "No history found!"
+msgstr ""
+
+#: block/build/radio-player/index.js:1
+msgid "Stations"
+msgstr ""
+
+#: block/build/radio-player/index.js:1
+msgid "History"
+msgstr ""
+
+#: block/build/radio-player/index.js:1
+msgid "--- Select a player ---"
+msgstr ""
+
+#: block/build/radio-player/index.js:1
+msgid "Change Player"
+msgstr ""
+
+#: block.json
+#: block/build/radio-player/block.json
+msgctxt "block title"
+msgid "Radio Player"
+msgstr ""
+
+#: block.json
+msgctxt "block description"
+msgid "Live Shoutcast, Icecast and Audio Stream Player for WordPress."
+msgstr ""
+
+#: block/build/radio-player/block.json
+msgctxt "block description"
+msgid "Display Radio Player"
+msgstr ""
+
+#: block/build/radio-player/block.json
+msgctxt "block keyword"
+msgid "radio"
+msgstr ""
+
+#: block/build/radio-player/block.json
+msgctxt "block keyword"
+msgid "player"
+msgstr ""
+
+#: block/build/radio-player/block.json
+msgctxt "block keyword"
+msgid "radio player"
+msgstr ""
